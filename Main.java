@@ -1,14 +1,12 @@
 public class Main {
   public static void main(String[] args) {
     System.out.println("SEMonster!");
-
-    // Playerクラスのオブジェクトを作成
+    System.out.println("SEMONSTER GAME");
+    System.out.println("Show draw monster!");
     Player player = new Player();
-
-    // モンスターをドロー
     player.drawMonsters();
-
-    // デッキを表示
     player.showDeck();
+    Monster monster = new Monster();
+    System.out.println(monster.toString());
   }
 }
