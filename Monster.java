@@ -1,3 +1,4 @@
+import java.util.Random;
 public class Monster {
   String name;
   int rare; // 0:common, 2:uncommon, 4:rare
